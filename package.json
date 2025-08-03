@@ -1,5 +1,5 @@
 {
-  "name": "react-network-info",
+  "name": "react-network-monitor",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
