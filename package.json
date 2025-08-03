@@ -23,9 +23,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/varungunasekaran/react-network-info.git"
+    "url": "git+https://github.com/varungunasekaran/react-network-monitor.git"
   },
-  "homepage": "https://github.com/varungunasekaran/react-network-info.git#readme",
+  "homepage": "https://github.com/varungunasekaran/react-network-monitor.git#readme",
   "peerDependencies": {
     "react": ">=16.8.0"
   },
