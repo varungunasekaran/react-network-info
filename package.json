@@ -1,13 +1,33 @@
 {
   "name": "react-network-info",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && tsup",
+    "build": "tsup",
     "lint": "eslint .",
     "preview": "vite preview"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "network",
+    "connection",
+    "navigator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varungunasekaran/react-network-info.git"
+  },
+  "homepage": "https://github.com/varungunasekaran/react-network-info.git#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
   },
   "dependencies": {
     "react": "^19.1.0",
