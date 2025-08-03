@@ -1,4 +1,4 @@
-# 🌐 react-network-info
+# 🌐 react-network-monitor
 
 A lightweight and efficient React hook to get real-time network connection details and online status using the [Network Information API](https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation).
 
@@ -18,9 +18,9 @@ A lightweight and efficient React hook to get real-time network connection detai
 ## 📦 Installation
 
 ```bash
-npm install react-network-info
+npm install react-network-monitor
 # or
-yarn add react-network-info
+yarn add react-network-monitor
 ```
 
 ---
@@ -28,7 +28,7 @@ yarn add react-network-info
 ## 🛠️ Usage
 
 ```typescript
-import { useNetworkInfo } from 'react-network-info';
+import { useNetworkInfo } from 'react-network-monitor';
 
 const MyComponent = () => {
   const {

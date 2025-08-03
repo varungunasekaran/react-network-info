@@ -1,5 +1,5 @@
 import React from "react";
-import { useNetworkInfo } from "../src"; // replace with 'react-network-info' after publishing
+import { useNetworkInfo } from "../src";
 
 const App: React.FC = () => {
     const {
